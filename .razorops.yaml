@@ -5,5 +5,4 @@ tasks:
     - checkout
     - commands:
       - php index.php
-    - name: test-build-deploy
       when: branch == "main"
