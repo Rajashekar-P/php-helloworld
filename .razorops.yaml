@@ -6,4 +6,4 @@ tasks:
     - commands:
       - php index.php
     - name: test-build-deploy
-      when: branch == "master"
+      when: branch == "main"
