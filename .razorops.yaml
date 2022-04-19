@@ -5,4 +5,3 @@ tasks:
     - checkout
     - commands:
       - php index.php
-      when: branch == "main"
